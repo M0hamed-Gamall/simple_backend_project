@@ -1,0 +1,43 @@
+header{
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.login-tab ,.sign-tab  {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.username, .password {
+    margin-bottom: 20px;
+}
+.username input, .password input ,.name input ,.email input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.submit-btn ,.sign-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.signup{
+    margin-top: 7px;
+}

@@ -167,8 +167,8 @@
         
         if(isset($_GET['dataUserID']) && isset($_GET['dataNoteId']))
         {
-            $stmt=$db->prepare("DELETE FROM notes WHERE note_id = ? ");
-            $stmt->execute([$_GET['dataNoteId']]);
+            $stmt=$db->prepare("DELETE FROM notes WHERE note_id = ?  AND user_id = ? ");
+            $stmt->execute([$_GET['dataNoteId'] , $_GET['dataUserID']]);
         }
         
 ?>

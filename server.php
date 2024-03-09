@@ -1,7 +1,7 @@
 <?php
     $mysql='mysql:host=localhost;dbname=note_application';
     $user='root';
-    $pass=4504;
+    $pass='';
 
     try{
         $db = new PDO($mysql , $user , $pass);
